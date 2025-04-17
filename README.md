@@ -24,13 +24,14 @@ npm install
 ```
 3. Compile contract source files. (Compilation and deployment can be done using truffle migrate):-
 ```
+truffle version or npx truffle version
 truffle compile
 ```
-4. Open Ganache, (to setup local blockchain)
+4. Open Ganache, (to setup local blockchain) (Install Ganache: https://archive.trufflesuite.com/ganache/)
     - crerate new workspace
     - add truffle-config.js  in truffle project 
     - change port to 7545 in server settings (same as port in truffle-config.js)
-5. In chrome, open metamask 
+5. In Brave, (open metamask, create account)
    - add new test network using  
         - NETWORK ID (i.e. 5777 ,from Ganache Server settings) 
         - RPC SERVER (i.e HTTP://127.0.0.1:8545 ,from Ganache Server settings)
